@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K NETWORK ID</title>
+    <title>NETWORK</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* General Styles */
@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-    background: url('Wifi.png') no-repeat center center/cover;
+    background: url('WIFI1.png') no-repeat center center/cover;
     padding: 5rem 0;
     color: #ffffff;
     text-align: center;
@@ -73,6 +73,20 @@ body {
     z-index: 1;
     position: relative;
     line-height: 1.6;
+}
+
+/* Logo Header Styles */
+.logo-header {
+    background-color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Card Styles */
@@ -179,7 +193,39 @@ button[type="button"] {
     letter-spacing: 1px;
     margin-top: 1rem;
 }
-        contact .btn-whatsapp {
+
+/* Contact Section Styles */
+.contact {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.contact .btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact .btn-whatsapp {
     background-color: #25d366;
     color: #ffffff;
    
@@ -198,15 +244,15 @@ button[type="button"] {
 .contact .btn-telegram:hover {
     background-color: #005f99;
     transform: translateY(-5px);
-    }
-    
+}
+
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">K PROJECT NETWORK</a>
+            <a class="navbar-brand" href="#">ADIT WIFI.OP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -227,6 +273,12 @@ button[type="button"] {
     </nav>
 
     <!-- Header -->
+    
+     <header class="logo-header">
+    <img src="WIFI1.png" alt="Logo" class="logo">
+</header>
+
+    
     <header class="header">
         <div class="container">
             <h1>Tentang kami</h1>
@@ -319,18 +371,21 @@ button[type="button"] {
             </div>
         </div>
     </section>
-    
+
+    <!-- Footer -->
+    <footer id="kontak" class="footer text-center">
+      
+<!-- Contact Section -->
 <section id="contact" class="contact py-5">
     <div class="container">
         <h2>Hubungi Kami</h2>
         <p>Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami melalui:</p>
-        <a href="https://wa.me/+6283851267592" class="btn btn-whatsapp">WhatsApp</a>
+        <a href="https://wa.me/083851267592" class="btn btn-whatsapp">WhatsApp</a>
         <a href="https://t.me/ADITWFI" class="btn btn-telegram">Telegram</a>
     </div>
 </section>
-
-    <!-- Footer -->
-    <footer id="kontak" class="footer text-center">
+     
+     
         <p>&copy; 2024 K NETWORK. All Rights Reserved.</p>
     </footer>
 
@@ -347,4 +402,4 @@ button[type="button"] {
         }
     </script>
 </body>
-</html>
+    </html>
